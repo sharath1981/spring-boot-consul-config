@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: consul-config-app
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      config:
+        fail-fast: true
+        data-key: data
+        format: yaml
